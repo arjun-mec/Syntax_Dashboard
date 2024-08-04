@@ -1,0 +1,23 @@
+.card-container {
+  background-color: #f4f4f6;
+  border-radius: 10px;
+  min-height: 98%;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

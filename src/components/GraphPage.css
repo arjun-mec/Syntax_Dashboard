@@ -1,0 +1,15 @@
+.graph-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.graph-heading {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
