@@ -73,7 +73,7 @@ const BarGroupChart = ({ Outcome, ECT, IF, SS, DL, GP }) => {
     },
     layout: {
       padding: {
-        right: 20,
+        right: 40,
       },
     },
     responsive: true,

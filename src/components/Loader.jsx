@@ -3,7 +3,7 @@ import React from "react";
 
 const Loader = () => {
   return (
-    <>
+    <div className="loading-container">
       <div className="socket">
         <div className="gel center-gel">
           <div className="hex-brick h1"></div>
@@ -197,7 +197,7 @@ const Loader = () => {
         <p>This might take upto 30 seconds</p>
         <p>Do not refresh</p>
       </div>
-    </>
+    </div>
   );
 };
 

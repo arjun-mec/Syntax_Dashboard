@@ -3,6 +3,7 @@ import "../components/Card.css";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import Button from "@mui/material/Button";
+import LinksButton from "./LinksButton";
 
 const Card = ({
   state,
@@ -116,6 +117,7 @@ const Card = ({
         <Button variant="contained" onClick={handleSubmitClick} size="large">
           Predict !
         </Button>
+        <LinksButton />
       </div>
     </>
   );
